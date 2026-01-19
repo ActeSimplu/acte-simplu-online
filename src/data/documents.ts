@@ -92,7 +92,7 @@ export const documents: Document[] = [
       "Lipsa certificatului medical constatator",
       "Documente incomplete ale decedatului"
     ],
-    officialWebsite: "https://www.primaria.ro",
+    officialWebsite: "https://depabd.mai.gov.ro/stare_civila.html",
     canDoOnline: false,
     lastUpdated: "12 decembrie 2024",
     isPopular: false,
@@ -149,9 +149,9 @@ export const documents: Document[] = [
       "Programare la alt județ decât cel de domiciliu",
       "Lipsa acordului ambilor părinți pentru minori"
     ],
-    officialWebsite: "https://www.pasapoarte.ro",
+    officialWebsite: "https://pasapoarte.mai.gov.ro/",
     canDoOnline: false,
-    onlineDetails: "Programare online obligatorie pe epasapoarte.ro",
+    onlineDetails: "Programare online prin ePașapoarte (Hub MAI): https://hub.mai.gov.ro/epasapoarte",
     lastUpdated: "13 decembrie 2024",
     isPopular: true,
     frequentlyChanges: false
@@ -274,7 +274,7 @@ export const institutions: Institution[] = [
     id: "primarie",
     name: "Primărie",
     shortName: "Primărie",
-    website: "https://www.primaria.ro",
+    website: "https://depabd.mai.gov.ro/stare_civila.html",
     documentIds: ["certificat-deces"]
   },
   {
